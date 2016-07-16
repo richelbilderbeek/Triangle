@@ -1,0 +1,20 @@
+sudo: true
+language: cpp
+compiler: gcc
+
+install: 
+  - sudo apt-get install -qq g++-5
+
+addons:
+  apt:
+    sources:
+    - boost-latest
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-5
+    - g++-5
+    - libboost1.55-all-dev
+
+script: 
+  - qmake
+  - make

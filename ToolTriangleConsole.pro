@@ -1,7 +1,7 @@
-include(../../ConsoleApplication.pri)
-include(../../Libraries/Boost.pri)
-include(../../Libraries/GeneralConsole.pri)
+include(../RibiLibraries/ConsoleApplication.pri)
+include(../RibiLibraries/Boost.pri)
+include(../RibiLibraries/GeneralConsole.pri)
 
-include(../../Tools/ToolTriangle/ToolTriangleConsole.pri)
+include(ToolTriangleConsole.pri)
 
 SOURCES += main.cpp

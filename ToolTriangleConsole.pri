@@ -1,13 +1,9 @@
 #DEFINES += ANSI_DECLARATORS
 
-INCLUDEPATH += \
-    ../../Tools/ToolTriangle
+INCLUDEPATH += $$PWD
 
 SOURCES += \
-    ../../Tools/ToolTriangle/triangle.c
+    $$PWD/triangle.c
 
 HEADERS += \
-    ../../Tools/ToolTriangle/triangle.h
-
-OTHER_FILES += \
-    ../../Tools/ToolTriangle/README
+    $$PWD/triangle.h
